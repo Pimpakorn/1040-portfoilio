@@ -1,0 +1,66 @@
+/* ตั้งค่าสำหรับ body ทั้งหมด */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #332f85;
+}
+
+/* กำหนดขนาดและพื้นหลังของ container */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d9d95b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ตั้งค่า layout ของสินค้า */
+#layer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* สไตล์กรอบสินค้าของแต่ละ div ใน layer */
+#layer div {
+    background-color: #da5757;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#layer div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* เพิ่มสไตล์สำหรับรูปภาพของสินค้า */
+#layer div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* เพิ่มสไตล์สำหรับชื่อแบรนด์และราคาของสินค้า */
+#layer div h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#layer div p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* สไตล์ส่วนหัวของเว็บ */
+#nav-top {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.5em;
+}

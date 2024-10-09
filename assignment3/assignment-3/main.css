@@ -1,0 +1,44 @@
+#cinnamon{
+    width: 25%;
+    border: 10px dotted rgb(238, 238, 142);
+}
+#cincin{
+    text-align: center;
+}
+h1{
+    background-color: rgb(250, 201, 137);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h2{
+    background-color: rgba(156, 241, 167, 0.822);
+    color: rgb(173, 64, 64);
+    margin : 25px;
+    padding: auto;
+    text-align: center;
+}
+span{
+    font-family:"TH Sarabun NEW"; 
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div_display{
+   width: 300px;
+}
+#picone{
+    width: 15%;
+    height: 10%;
+    border: 5px dashed rgb(247, 172, 61);
+}
+body{
+    background-color: rgb(249, 236, 255);
+}
+img{
+    width: 100%;
+}
